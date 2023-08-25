@@ -1,0 +1,22 @@
+#otp-input {
+    display: flex;
+    gap: 0.5em;
+  }
+  #otp-input input {
+    width: 2em;
+    padding: 0.5em 0;
+    font-family: monospace;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  
+  /* hide spinner */
+  #otp-input input::-webkit-outer-spin-button,
+  #otp-input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  #otp-input input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+  }
